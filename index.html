@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV · P.D. Edgar</title>
+<style>
+  /* ---------- base ---------- */
+  :root {
+    --ink: #1d1d1b; --muted: #6b6a66; --rule: #d9d6cf; --paper: #fbfaf7;
+    --accent: #7a2e1f; --chip: #efece5; --chip-ink: #4a4843;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink);
+         font: 16px/1.5 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+  a { color: var(--accent); }
+
+  /* ---------- header + tabs ---------- */
+  header h1 { font-size: 2rem; margin: 0; letter-spacing: .01em; }
+  header .pos { color: var(--muted); font-style: italic; }
+  header .contact { margin-top: .35rem; font-size: .95rem; }
+  header .contact span + span::before { content: " | "; color: var(--muted); }
+  nav { display: flex; gap: .25rem; margin: 1.75rem 0 1.5rem; border-bottom: 1px solid var(--rule); }
+  nav button { font: inherit; font-size: .95rem; background: none; border: 0; padding: .55rem .9rem;
+               cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  nav button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+  /* ---------- sections + entries ---------- */
+  h2.sec { font-size: 1.35rem; margin: 2.25rem 0 .5rem; padding-bottom: .2rem; border-bottom: 2px solid var(--ink); }
+  h3.sub { font-size: 1.05rem; margin: 1.25rem 0 .35rem; }
+  h4.h3 { font-size: .95rem; font-weight: normal; font-style: italic; color: var(--muted); margin: .75rem 0 .25rem; }
+  .entry { display: grid; grid-template-columns: 1fr 11rem; gap: .2rem 1rem; padding: .45rem 0;
+           border-bottom: 1px dotted var(--rule); }
+  .entry.grouped { border-top: 0; padding-top: .1rem; }
+  .entry .title { font-weight: 600; }
+  .entry .meta { color: var(--muted); font-size: .93rem; }
+  .entry .date { text-align: right; font-size: .9rem; color: var(--muted); white-space: nowrap; }
+  .entry ul { margin: .2rem 0 0; padding-left: 1.1rem; font-size: .93rem; }
+  .entry .links { font-size: .88rem; }
+  .entry .links a + a { margin-left: .6rem; }
+  .entry .note { font-size: .82rem; color: var(--accent); }
+  .tags { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .25rem; }
+  .tag { font: 11px/1.6 ui-sans-serif, system-ui, sans-serif; background: var(--chip); color: var(--chip-ink);
+         padding: 0 .45rem; border-radius: 3px; }
+  .tag.status { background: #f3e2dc; color: var(--accent); }
+  .tag.sec { background: none; border: 1px solid var(--rule); }
+  body.hide-tags .tags { display: none; }
+  .toolbar { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;
+             font: 13px ui-sans-serif, system-ui, sans-serif; color: var(--muted); margin-bottom: .5rem; }
+
+  /* ---------- rank view ---------- */
+  .rank-help { font-size: .95rem; color: var(--muted); margin: 0 0 .75rem; }
+  .rank-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .5rem; }
+  .rank-box { position: relative; font: inherit; font-size: .9rem; text-align: left; cursor: pointer;
+              padding: .65rem .7rem .65rem 2.4rem; min-height: 3.2rem; background: #fff;
+              border: 1px solid var(--rule); border-radius: 6px; color: var(--ink); }
+  .rank-box:hover { border-color: var(--muted); }
+  .rank-box .badge { position: absolute; left: .6rem; top: .6rem; width: 1.4rem; height: 1.4rem; border-radius: 50%;
+                     border: 1px dashed var(--rule); font: 12px/1.3rem ui-sans-serif, system-ui, sans-serif;
+                     text-align: center; color: var(--muted); }
+  .rank-box.ranked { border-color: var(--accent); background: #fdf6f3; }
+  .rank-box.ranked .badge { background: var(--accent); border: 0; color: #fff; font-weight: 700; }
+  .rank-actions { margin: .75rem 0 0; display: flex; gap: .5rem; }
+  .rank-actions button { font: 13px ui-sans-serif, system-ui, sans-serif; padding: .35rem .8rem; cursor: pointer;
+                         border: 1px solid var(--rule); background: #fff; border-radius: 4px; }
+  .divider { margin: 2.5rem 0 0; font: 12px ui-sans-serif, system-ui, sans-serif; text-transform: uppercase;
+             letter-spacing: .08em; color: var(--muted); border-top: 1px solid var(--rule); padding-top: .5rem; }
+
+  .error { padding: 1rem; border: 1px solid var(--accent); color: var(--accent); }
+  @media (max-width: 600px) { .entry { grid-template-columns: 1fr; } .entry .date { text-align: left; grid-row: 1; } }
+  @media print { nav, .toolbar, .rank-panel, .tags { display: none !important; } body { background: #fff; } }
+</style>
+</head>
+<body>
+<main>
+  <header id="header"></header>
+  <nav role="tablist">
+    <button role="tab" data-view="original">Original order</button>
+    <button role="tab" data-view="date">By date</button>
+    <button role="tab" data-view="rank">Rank sections</button>
+  </nav>
+  <div class="toolbar"><label><input type="checkbox" id="tagToggle" checked> Show type / category tags</label></div>
+  <section id="view"></section>
+</main>
+
+<script>
+/* ======================================================================
+   Module 1 — data + small helpers
+   ====================================================================== */
+const STATE = { cv: null, rank: [] };
+const RANK_KEY = "pd-cv-rank";
+
+function el(tag, attrs = {}, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === "class") n.className = v;
+    else if (k.startsWith("on")) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v);
+  }
+  for (const k of kids.flat()) if (k != null && k !== "") n.append(k.nodeType ? k : document.createTextNode(k));
+  return n;
+}
+const pretty = s => s.replace(/-/g, " ");
+const sectionById = id => STATE.cv.sections.find(s => s.id === id);
+
+/* ======================================================================
+   Module 2 — rendering one entry and one section
+   ====================================================================== */
+function renderEntry(e, { showSection = false } = {}) {
+  const meta = [e.role, e.venue, e.location].filter(Boolean).join(" · ");
+  const st = e.date.status;
+  const tags = el("div", { class: "tags" },
+    el("span", { class: "tag" }, pretty(e.type)),
+    el("span", { class: "tag" }, e.category),
+    st && st !== "completed" ? el("span", { class: "tag status" }, pretty(st)) : null,
+    showSection ? el("span", { class: "tag sec" }, sectionById(e.section).title) : null);
+  return el("div", { class: "entry", "data-id": e.id },
+    el("div", {},
+      el("div", { class: "title" }, e.title),
+      meta ? el("div", { class: "meta" }, meta) : null,
+      e.details.length ? el("ul", {}, e.details.map(d => el("li", {}, d))) : null,
+      e.links.length ? el("div", { class: "links" },
+        e.links.map(l => el("a", { href: l.url, target: "_blank", rel: "noopener" }, l.label))) : null,
+      e.note ? el("div", { class: "note" }, "Note: " + e.note) : null,
+      tags),
+    el("div", { class: "date" }, e.date.display || ""));
+}
+
+// One H1 section with its H2 subsections and H3 headings, in CV order.
+function renderSection(sec) {
+  const wrap = el("div", { class: "section", "data-section": sec.id }, el("h2", { class: "sec" }, sec.title));
+  let sub, h3;
+  for (const e of STATE.cv.entries.filter(x => x.section === sec.id)) {
+    if (e.subsection !== sub) {
+      sub = e.subsection; h3 = undefined;
+      if (sub && sub !== sec.title) wrap.append(el("h3", { class: "sub" }, sub));
+    }
+    if (e.heading !== h3) { h3 = e.heading; if (h3) wrap.append(el("h4", { class: "h3" }, h3)); }
+    wrap.append(renderEntry(e));
+  }
+  return wrap;
+}
+
+/* ======================================================================
+   Module 3 — the three views
+   ====================================================================== */
+const VIEWS = {
+  // View 1: the CV exactly as ordered in the document
+  original() {
+    return STATE.cv.sections.map(renderSection);
+  },
+
+  // View 2: everything on one timeline, newest first
+  date() {
+    const groups = new Map([["Upcoming & In Submission", []], ["Current & Ongoing", []]]);
+    const years = new Map(), undated = [];
+    for (const e of STATE.cv.entries) {
+      const d = e.date, key = d.end || d.start;
+      if (["in-submission", "pending", "upcoming"].includes(d.status)) groups.get("Upcoming & In Submission").push(e);
+      else if (d.ongoing || d.status === "in-progress") groups.get("Current & Ongoing").push(e);
+      else if (key) { const y = key.slice(0, 4); (years.get(y) || years.set(y, []).get(y)).push(e); }
+      else undated.push(e);
+    }
+    const byDateDesc = (a, b) => ((b.date.end || b.date.start || "") > (a.date.end || a.date.start || "") ? 1 : -1);
+    [...years.keys()].sort().reverse().forEach(y => groups.set(y, years.get(y)));
+    groups.set("Undated", undated);
+    const out = [];
+    for (const [label, list] of groups) {
+      if (!list.length) continue;
+      if (label !== "Undated") list.sort(byDateDesc);
+      out.push(el("h2", { class: "sec" }, `${label} `, el("span", { class: "meta" }, `(${list.length})`)));
+      list.forEach(e => out.push(renderEntry(e, { showSection: true })));
+    }
+    return out;
+  },
+
+  // View 3: click section boxes in order of importance
+  rank() {
+    const ranked = STATE.rank.map(sectionById).filter(Boolean);
+    const unranked = STATE.cv.sections.filter(s => !STATE.rank.includes(s.id));
+    const panel = el("div", { class: "rank-panel" },
+      el("p", { class: "rank-help" },
+        "Click the sections in order of importance, most important first. Click a numbered box again to remove it. " +
+        "Sections you don't click follow in their original order."),
+      el("div", { class: "rank-grid" }, STATE.cv.sections.map(s => {
+        const i = STATE.rank.indexOf(s.id);
+        return el("button", { class: "rank-box" + (i >= 0 ? " ranked" : ""), onclick: () => toggleRank(s.id) },
+          el("span", { class: "badge" }, i >= 0 ? String(i + 1) : ""), s.title);
+      })),
+      el("div", { class: "rank-actions" },
+        el("button", { onclick: () => setRank([]) }, "Reset"),
+        el("button", { onclick: () => setRank(STATE.cv.sections.map(s => s.id)) }, "Use original order")));
+    return [panel,
+      ...ranked.map(renderSection),
+      ranked.length && unranked.length ? el("div", { class: "divider" }, "Unranked sections") : null,
+      ...unranked.map(renderSection)];
+  },
+};
+
+/* ======================================================================
+   Module 4 — ranking state (saved in this browser when possible)
+   ====================================================================== */
+function toggleRank(id) {
+  const r = STATE.rank.includes(id) ? STATE.rank.filter(x => x !== id) : [...STATE.rank, id];
+  setRank(r);
+}
+function setRank(r) {
+  STATE.rank = r;
+  try { localStorage.setItem(RANK_KEY, JSON.stringify(r)); } catch (_) {}
+  show("rank", { keepScroll: true });
+}
+function loadRank() {
+  try { STATE.rank = JSON.parse(localStorage.getItem(RANK_KEY)) || []; } catch (_) { STATE.rank = []; }
+}
+
+/* ======================================================================
+   Module 5 — header, routing, boot
+   ====================================================================== */
+function renderHeader(m) {
+  const h = document.getElementById("header");
+  h.replaceChildren(
+    el("h1", {}, m.name),
+    el("div", { class: "pos" }, `Curriculum Vitae · ${m.position}`),
+    el("div", { class: "contact" },
+      el("span", {}, el("a", { href: "mailto:" + m.email }, m.email)),
+      el("span", {}, el("a", { href: m.website }, m.website.replace(/^https?:\/\//, ""))),
+      el("span", {}, m.handle)));
+}
+
+function show(view, { keepScroll = false } = {}) {
+  if (!VIEWS[view]) view = "original";
+  const y = window.scrollY;
+  document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === view));
+  document.getElementById("view").replaceChildren(...VIEWS[view]().filter(Boolean));
+  if (location.hash !== "#" + view) history.replaceState(null, "", "#" + view);
+  if (keepScroll) window.scrollTo(0, y);
+}
+
+document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
+document.getElementById("tagToggle").addEventListener("change", e => document.body.classList.toggle("hide-tags", !e.target.checked));
+
+fetch("cv.json")
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(cv => { STATE.cv = cv; loadRank(); renderHeader(cv.meta); show(location.hash.slice(1)); })
+  .catch(err => document.getElementById("view").replaceChildren(el("div", { class: "error" },
+    `Couldn't load cv.json (${err.message}). If you opened this file directly, run a local server in this folder ` +
+    `(e.g. "python3 -m http.server") and visit http://localhost:8000, or host both files together.`)));
+</script>
+</body>
+</html>
