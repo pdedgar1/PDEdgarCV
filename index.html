@@ -4,75 +4,108 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CV · P.D. Edgar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-  /* ---------- base ---------- */
+  /* ---------- palette + type (Prairie-inspired) ---------- */
   :root {
-    --ink: #1d1d1b; --muted: #6b6a66; --rule: #d9d6cf; --paper: #fbfaf7;
-    --accent: #7a2e1f; --chip: #efece5; --chip-ink: #4a4843;
+    --paper: #f5f0e4; --card: #fbf8f1; --ink: #2b2420; --muted: #75695c; --rule: #cdbf9f;
+    --red: #a63a28; --ochre: #c4932f; --sage: #6e7c4e; --chip: #ebe3d1; --chip-ink: #4f4537;
+    --indent: 1.5rem;
+    --display: "Josefin Sans", "Futura", "Century Gothic", sans-serif;
+    --body: "Libre Caslon Text", "Big Caslon", "Iowan Old Style", Georgia, serif;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--paper); color: var(--ink);
-         font: 16px/1.5 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
-  main { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
-  a { color: var(--accent); }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 15.5px/1.6 var(--body); }
+  main { max-width: 1180px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+  a { color: var(--red); text-decoration-color: var(--ochre); text-underline-offset: 2px; }
 
-  /* ---------- header + tabs ---------- */
-  header h1 { font-size: 2rem; margin: 0; letter-spacing: .01em; }
-  header .pos { color: var(--muted); font-style: italic; }
-  header .contact { margin-top: .35rem; font-size: .95rem; }
-  header .contact span + span::before { content: " | "; color: var(--muted); }
-  nav { display: flex; gap: .25rem; margin: 1.75rem 0 1.5rem; border-bottom: 1px solid var(--rule); }
-  nav button { font: inherit; font-size: .95rem; background: none; border: 0; padding: .55rem .9rem;
-               cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
-  nav button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+  /* ---------- header + art-glass band ---------- */
+  header h1 { font: 600 2.6rem/1 var(--display); letter-spacing: .14em; text-transform: uppercase; margin: 0; }
+  header .pos { font: 400 .95rem var(--display); letter-spacing: .22em; text-transform: uppercase; color: var(--muted); margin-top: .6rem; }
+  header .contact { margin-top: .5rem; font-size: .95rem; }
+  header .contact span + span::before { content: " | "; color: var(--rule); }
+  .band { height: 26px; margin: 1.75rem 0 0;
+    background:
+      linear-gradient(var(--ink), var(--ink)) top / 100% 2px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) bottom / 100% 1px no-repeat,
+      repeating-linear-gradient(90deg, var(--red) 0 9px, transparent 9px 132px) 18px 50% / 100% 9px no-repeat,
+      repeating-linear-gradient(90deg, var(--ochre) 0 6px, transparent 6px 132px) 44px 50% / 100% 6px no-repeat,
+      repeating-linear-gradient(90deg, var(--sage) 0 6px, transparent 6px 132px) 92px 50% / 100% 6px no-repeat,
+      linear-gradient(var(--rule), var(--rule)) center / 100% 1px no-repeat,
+      repeating-linear-gradient(90deg, transparent 0 65px, var(--rule) 65px 66px); }
 
-  /* ---------- sections + entries ---------- */
-  h2.sec { font-size: 1.35rem; margin: 2.25rem 0 .5rem; padding-bottom: .2rem; border-bottom: 2px solid var(--ink); }
-  h3.sub { font-size: 1.05rem; margin: 1.25rem 0 .35rem; }
-  h4.h3 { font-size: .95rem; font-weight: normal; font-style: italic; color: var(--muted); margin: .75rem 0 .25rem; }
-  .entry { display: grid; grid-template-columns: 1fr 11rem; gap: .2rem 1rem; padding: .45rem 0;
-           border-bottom: 1px dotted var(--rule); }
-  .entry.grouped { border-top: 0; padding-top: .1rem; }
-  .entry .title { font-weight: 600; }
-  .entry .meta { color: var(--muted); font-size: .93rem; }
-  .entry .date { text-align: right; font-size: .9rem; color: var(--muted); white-space: nowrap; }
-  .entry ul { margin: .2rem 0 0; padding-left: 1.1rem; font-size: .93rem; }
-  .entry .links { font-size: .88rem; }
-  .entry .links a + a { margin-left: .6rem; }
-  .entry .note { font-size: .82rem; color: var(--accent); }
-  .tags { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .25rem; }
-  .tag { font: 11px/1.6 ui-sans-serif, system-ui, sans-serif; background: var(--chip); color: var(--chip-ink);
-         padding: 0 .45rem; border-radius: 3px; }
-  .tag.status { background: #f3e2dc; color: var(--accent); }
+  /* ---------- tabs ---------- */
+  nav { display: flex; gap: .25rem; margin: 1.25rem 0 1.25rem; border-bottom: 1px solid var(--rule); }
+  nav button { font: 600 .82rem var(--display); letter-spacing: .16em; text-transform: uppercase; background: none;
+               border: 0; padding: .7rem 1rem .55rem; cursor: pointer; color: var(--muted);
+               border-bottom: 3px solid transparent; margin-bottom: -1px; }
+  nav button:hover { color: var(--ink); }
+  nav button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--red); }
+
+  /* ---------- sections + indentation ---------- */
+  h2.sec { position: relative; font: 600 1.2rem var(--display); letter-spacing: .14em; text-transform: uppercase;
+           margin: 2.75rem 0 .75rem; padding: 0 0 .45rem 1.4rem; border-bottom: 2px solid var(--ink); }
+  h2.sec::before { content: ""; position: absolute; left: 0; top: .28em; width: .62em; height: .62em;
+                   background: var(--red); box-shadow: inset 0 0 0 2px var(--red), inset 0 0 0 3px var(--paper); }
+  h2.sec::after { content: ""; position: absolute; left: 0; right: 0; bottom: -6px; height: 1px; background: var(--rule); }
+  h2.sec .meta { font: 400 .8rem var(--display); letter-spacing: .08em; color: var(--muted); }
+  h3.sub { font: 600 .98rem var(--display); letter-spacing: .06em; margin: 1.5rem 0 .3rem var(--indent);
+           padding-left: .65rem; border-left: 3px solid var(--ochre); }
+  h4.h3 { font-size: .93rem; font-weight: normal; font-style: italic; color: var(--sage);
+          margin: .8rem 0 .2rem calc(var(--indent) * 2); }
+  .entry { display: grid; grid-template-columns: 1fr 13rem; gap: .15rem 1.5rem; padding: .55rem 0;
+           border-bottom: 1px solid color-mix(in srgb, var(--rule) 55%, transparent); }
+  .entry.d1 { margin-left: var(--indent); }
+  .entry.d2 { margin-left: calc(var(--indent) * 2); }
+  .entry.d3 { margin-left: calc(var(--indent) * 3); }
+  .entry .title { font-weight: 700; }
+  .entry .meta { color: var(--muted); font-size: .92rem; }
+  .entry .date { text-align: right; font: .85rem/1.9 var(--display); letter-spacing: .04em; color: var(--muted); white-space: nowrap; }
+  .entry ul { margin: .2rem 0 0; padding-left: 1.1rem; font-size: .92rem; }
+  .entry li::marker { color: var(--ochre); }
+  .entry .links { font-size: .86rem; margin-top: .15rem; }
+  .entry .links a + a { margin-left: .7rem; }
+  .entry .note { font-size: .8rem; color: var(--red); }
+  .tags { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .3rem; }
+  .tag { font: 600 10.5px/1.8 var(--display); letter-spacing: .08em; text-transform: uppercase;
+         background: var(--chip); color: var(--chip-ink); padding: 0 .5rem; }
+  .tag.status { background: var(--red); color: #fff; }
   .tag.sec { background: none; border: 1px solid var(--rule); }
   body.hide-tags .tags { display: none; }
-  .toolbar { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;
-             font: 13px ui-sans-serif, system-ui, sans-serif; color: var(--muted); margin-bottom: .5rem; }
+  .toolbar { display: flex; gap: 1rem; justify-content: flex-end; font: .8rem var(--display);
+             letter-spacing: .06em; color: var(--muted); margin-bottom: .25rem; }
+  .toolbar input { accent-color: var(--red); }
 
-  /* ---------- rank view ---------- */
-  .rank-help { font-size: .95rem; color: var(--muted); margin: 0 0 .75rem; }
-  .rank-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .5rem; }
-  .rank-box { position: relative; font: inherit; font-size: .9rem; text-align: left; cursor: pointer;
-              padding: .65rem .7rem .65rem 2.4rem; min-height: 3.2rem; background: #fff;
-              border: 1px solid var(--rule); border-radius: 6px; color: var(--ink); }
-  .rank-box:hover { border-color: var(--muted); }
-  .rank-box .badge { position: absolute; left: .6rem; top: .6rem; width: 1.4rem; height: 1.4rem; border-radius: 50%;
-                     border: 1px dashed var(--rule); font: 12px/1.3rem ui-sans-serif, system-ui, sans-serif;
-                     text-align: center; color: var(--muted); }
-  .rank-box.ranked { border-color: var(--accent); background: #fdf6f3; }
-  .rank-box.ranked .badge { background: var(--accent); border: 0; color: #fff; font-weight: 700; }
-  .rank-actions { margin: .75rem 0 0; display: flex; gap: .5rem; }
-  .rank-actions button { font: 13px ui-sans-serif, system-ui, sans-serif; padding: .35rem .8rem; cursor: pointer;
-                         border: 1px solid var(--rule); background: #fff; border-radius: 4px; }
-  .divider { margin: 2.5rem 0 0; font: 12px ui-sans-serif, system-ui, sans-serif; text-transform: uppercase;
-             letter-spacing: .08em; color: var(--muted); border-top: 1px solid var(--rule); padding-top: .5rem; }
+  /* ---------- rank view (art-glass panes) ---------- */
+  .rank-help { font-size: .95rem; color: var(--muted); margin: 0 0 1rem; }
+  .rank-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: .6rem; }
+  .rank-box { position: relative; text-align: left; cursor: pointer; padding: .8rem .8rem .8rem 2.7rem; min-height: 3.6rem;
+              font: 600 .78rem/1.35 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--ink);
+              background: var(--card); border: 1px solid var(--rule); outline: 1px solid var(--rule); outline-offset: -5px; }
+  .rank-box:hover { border-color: var(--ochre); outline-color: var(--ochre); }
+  .rank-box .badge { position: absolute; left: .75rem; top: .75rem; width: 1.35rem; height: 1.35rem;
+                     border: 1px solid var(--rule); font: 700 12px/1.3rem var(--display); text-align: center; letter-spacing: 0; }
+  .rank-box.ranked { border-color: var(--red); outline-color: var(--ochre); background: #fbefe6; }
+  .rank-box.ranked .badge { background: var(--red); border-color: var(--red); color: #fff; }
+  .rank-actions { margin: .9rem 0 0; display: flex; gap: .5rem; }
+  .rank-actions button { font: 600 .75rem var(--display); letter-spacing: .12em; text-transform: uppercase;
+                         padding: .5rem .95rem; cursor: pointer; border: 1px solid var(--ink); background: none; color: var(--ink); }
+  .rank-actions button:hover { background: var(--ink); color: var(--paper); }
+  .divider { margin: 3rem 0 0; font: 600 .75rem var(--display); text-transform: uppercase; letter-spacing: .18em;
+             color: var(--muted); border-top: 1px solid var(--rule); padding-top: .5rem; }
 
-  .error { padding: 1rem; border: 1px solid var(--accent); color: var(--accent); }
-  @media (max-width: 600px) { .entry { grid-template-columns: 1fr; } .entry .date { text-align: left; grid-row: 1; } }
-  @media print { nav, .toolbar, .rank-panel, .tags { display: none !important; } body { background: #fff; } }
+  .error { padding: 1rem; border: 1px solid var(--red); color: var(--red); }
+  @media (max-width: 700px) {
+    :root { --indent: .75rem; } main { padding: 2rem 1rem 4rem; }
+    .entry { grid-template-columns: 1fr; } .entry .date { text-align: left; grid-row: 1; }
+  }
+  @media print { nav, .toolbar, .rank-panel, .tags, .band { display: none !important; } body { background: #fff; } }
 </style>
+
 </head>
-<body>
+<body class="hide-tags">
 <main>
   <header id="header"></header>
   <nav role="tablist">
@@ -80,7 +113,7 @@
     <button role="tab" data-view="date">By date</button>
     <button role="tab" data-view="rank">Rank sections</button>
   </nav>
-  <div class="toolbar"><label><input type="checkbox" id="tagToggle" checked> Show type / category tags</label></div>
+  <div class="toolbar"><label><input type="checkbox" id="tagToggle"> Show type / category tags</label></div>
   <section id="view"></section>
 </main>
 
@@ -108,7 +141,7 @@ const sectionById = id => STATE.cv.sections.find(s => s.id === id);
 /* ======================================================================
    Module 2 — rendering one entry and one section
    ====================================================================== */
-function renderEntry(e, { showSection = false } = {}) {
+function renderEntry(e, { showSection = false, depth = 1 } = {}) {
   const meta = [e.role, e.venue, e.location].filter(Boolean).join(" · ");
   const st = e.date.status;
   const tags = el("div", { class: "tags" },
@@ -116,7 +149,7 @@ function renderEntry(e, { showSection = false } = {}) {
     el("span", { class: "tag" }, e.category),
     st && st !== "completed" ? el("span", { class: "tag status" }, pretty(st)) : null,
     showSection ? el("span", { class: "tag sec" }, sectionById(e.section).title) : null);
-  return el("div", { class: "entry", "data-id": e.id },
+  return el("div", { class: `entry d${depth}`, "data-id": e.id },
     el("div", {},
       el("div", { class: "title" }, e.title),
       meta ? el("div", { class: "meta" }, meta) : null,
@@ -138,7 +171,7 @@ function renderSection(sec) {
       if (sub && sub !== sec.title) wrap.append(el("h3", { class: "sub" }, sub));
     }
     if (e.heading !== h3) { h3 = e.heading; if (h3) wrap.append(el("h4", { class: "h3" }, h3)); }
-    wrap.append(renderEntry(e));
+    wrap.append(renderEntry(e, { depth: 1 + (sub && sub !== sec.title ? 1 : 0) + (h3 ? 1 : 0) }));
   }
   return wrap;
 }
@@ -226,7 +259,8 @@ function renderHeader(m) {
     el("div", { class: "contact" },
       el("span", {}, el("a", { href: "mailto:" + m.email }, m.email)),
       el("span", {}, el("a", { href: m.website }, m.website.replace(/^https?:\/\//, ""))),
-      el("span", {}, m.handle)));
+      el("span", {}, m.handle)),
+    el("div", { class: "band", "aria-hidden": "true" }));
 }
 
 function show(view, { keepScroll = false } = {}) {
@@ -239,6 +273,7 @@ function show(view, { keepScroll = false } = {}) {
 }
 
 document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
+window.addEventListener("hashchange", () => STATE.cv && show(location.hash.slice(1)));
 document.getElementById("tagToggle").addEventListener("change", e => document.body.classList.toggle("hide-tags", !e.target.checked));
 
 fetch("cv.json")
