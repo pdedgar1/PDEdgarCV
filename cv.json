@@ -7,7 +7,7 @@
     "website": "http://pdedgar.xyz",
     "handle": "@PDEdgar30",
     "source": "Curriculum_Vitae_-_PD_Edgar_11_26.md",
-    "generated": "2026-11-13"
+    "generated": "2026-11-14"
   },
   "sections": [
     {
@@ -50,7 +50,7 @@
       "id": "conference-presentations-invited-talks-readings",
       "title": "Conference Presentations, Invited Talks, & Readings",
       "order": 7,
-      "count": 57
+      "count": 58
     },
     {
       "id": "administrative-experience",
@@ -2161,8 +2161,35 @@
       "note": null
     },
     {
-      "id": "076-sort-think-act-station-based-ai-literacy",
+      "id": "076-the-longest-table",
       "order": 76,
+      "section": "conference-presentations-invited-talks-readings",
+      "subsection": "Conducted Workshops",
+      "heading": null,
+      "group": null,
+      "type": "workshop-conducted",
+      "category": "Creative",
+      "title": "The Longest Table",
+      "role": "Creative Station Guide",
+      "venue": "Downtown Community Event",
+      "location": "Lakeland, FL",
+      "details": [
+        "By invitation of CreativeClick.io",
+        "1 of 3 poets invited to guide a creative station at Downtown Community Event with zine making, collaborative writing prompts, and art opportunities for the public"
+      ],
+      "links": [],
+      "date": {
+        "display": "Nov. 14, 2026",
+        "start": "2026-11-14",
+        "end": null,
+        "ongoing": false,
+        "status": "completed"
+      },
+      "note": null
+    },
+    {
+      "id": "077-sort-think-act-station-based-ai-literacy",
+      "order": 77,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Conducted Workshops",
       "heading": null,
@@ -2187,8 +2214,8 @@
       "note": null
     },
     {
-      "id": "077-ai-me",
-      "order": 77,
+      "id": "078-ai-me",
+      "order": 78,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Conducted Workshops",
       "heading": null,
@@ -2214,8 +2241,8 @@
       "note": null
     },
     {
-      "id": "078-how-to-love-poetry",
-      "order": 78,
+      "id": "079-how-to-love-poetry",
+      "order": 79,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Conducted Workshops",
       "heading": null,
@@ -2240,8 +2267,8 @@
       "note": null
     },
     {
-      "id": "079-indesign-the-creative-writer-studio-sess",
-      "order": 79,
+      "id": "080-indesign-the-creative-writer-studio-sess",
+      "order": 80,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Conducted Workshops",
       "heading": null,
@@ -2267,8 +2294,8 @@
       "note": null
     },
     {
-      "id": "080-what-can-i-do-with-an-english-degree",
-      "order": 80,
+      "id": "081-what-can-i-do-with-an-english-degree",
+      "order": 81,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2293,8 +2320,8 @@
       "note": null
     },
     {
-      "id": "081-study-make-start-show",
-      "order": 81,
+      "id": "082-study-make-start-show",
+      "order": 82,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2319,8 +2346,8 @@
       "note": null
     },
     {
-      "id": "082-re-mediate-issue-3-preview-reading",
-      "order": 82,
+      "id": "083-re-mediate-issue-3-preview-reading",
+      "order": 83,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2345,8 +2372,8 @@
       "note": null
     },
     {
-      "id": "083-short-interactive-presentation-on-educat",
-      "order": 83,
+      "id": "084-short-interactive-presentation-on-educat",
+      "order": 84,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2371,8 +2398,8 @@
       "note": null
     },
     {
-      "id": "084-lit-mags-for-all-how-to-start-a-literary",
-      "order": 84,
+      "id": "085-lit-mags-for-all-how-to-start-a-literary",
+      "order": 85,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2402,8 +2429,8 @@
       "note": null
     },
     {
-      "id": "085-lit-mags-for-all-similar-presentation",
-      "order": 85,
+      "id": "086-lit-mags-for-all-similar-presentation",
+      "order": 86,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2433,8 +2460,8 @@
       "note": null
     },
     {
-      "id": "086-lit-mag-reading-club-chat-with-the-edito",
-      "order": 86,
+      "id": "087-lit-mag-reading-club-chat-with-the-edito",
+      "order": 87,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2464,8 +2491,8 @@
       "note": null
     },
     {
-      "id": "087-writing-center-tutor-training-week",
-      "order": 87,
+      "id": "088-writing-center-tutor-training-week",
+      "order": 88,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2491,8 +2518,8 @@
       "note": null
     },
     {
-      "id": "088-lunch-and-launch",
-      "order": 88,
+      "id": "089-lunch-and-launch",
+      "order": 89,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2518,8 +2545,8 @@
       "note": null
     },
     {
-      "id": "089-formal-intentions-writing-in-and-inventi",
-      "order": 89,
+      "id": "090-formal-intentions-writing-in-and-inventi",
+      "order": 90,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2544,8 +2571,8 @@
       "note": null
     },
     {
-      "id": "090-poe-try-pography-print-history-and-digit",
-      "order": 90,
+      "id": "091-poe-try-pography-print-history-and-digit",
+      "order": 91,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2570,8 +2597,8 @@
       "note": null
     },
     {
-      "id": "091-a-complex-simple-b-order-re-connecting-t",
-      "order": 91,
+      "id": "092-a-complex-simple-b-order-re-connecting-t",
+      "order": 92,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Invited Talks",
       "heading": null,
@@ -2594,8 +2621,8 @@
       "note": null
     },
     {
-      "id": "092-open-book",
-      "order": 92,
+      "id": "093-open-book",
+      "order": 93,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2625,8 +2652,8 @@
       "note": null
     },
     {
-      "id": "093-open-book",
-      "order": 93,
+      "id": "094-open-book",
+      "order": 94,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2656,8 +2683,8 @@
       "note": null
     },
     {
-      "id": "094-open-book",
-      "order": 94,
+      "id": "095-open-book",
+      "order": 95,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2687,8 +2714,8 @@
       "note": null
     },
     {
-      "id": "095-burning-house-press-s-inanimism-launch-r",
-      "order": 95,
+      "id": "096-burning-house-press-s-inanimism-launch-r",
+      "order": 96,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2713,8 +2740,8 @@
       "note": null
     },
     {
-      "id": "096-mfa-creative-writing-graduating-student-",
-      "order": 96,
+      "id": "097-mfa-creative-writing-graduating-student-",
+      "order": 97,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2744,8 +2771,8 @@
       "note": null
     },
     {
-      "id": "097-night-of-the-aesthetes",
-      "order": 97,
+      "id": "098-night-of-the-aesthetes",
+      "order": 98,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2776,8 +2803,8 @@
       "note": null
     },
     {
-      "id": "098-poets-vs-prose-fall-classic",
-      "order": 98,
+      "id": "099-poets-vs-prose-fall-classic",
+      "order": 99,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2802,8 +2829,8 @@
       "note": null
     },
     {
-      "id": "099-pure-products-reading-the-kathryn-tucker",
-      "order": 99,
+      "id": "100-pure-products-reading-the-kathryn-tucker",
+      "order": 100,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2828,8 +2855,8 @@
       "note": null
     },
     {
-      "id": "100-upperclass-student-reading",
-      "order": 100,
+      "id": "101-upperclass-student-reading",
+      "order": 101,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2859,8 +2886,8 @@
       "note": null
     },
     {
-      "id": "101-a-reading-of-poetry",
-      "order": 101,
+      "id": "102-a-reading-of-poetry",
+      "order": 102,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2890,8 +2917,8 @@
       "note": null
     },
     {
-      "id": "102-exhibition-opening",
-      "order": 102,
+      "id": "103-exhibition-opening",
+      "order": 103,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2916,8 +2943,8 @@
       "note": null
     },
     {
-      "id": "103-american-idiots-and-international-friend",
-      "order": 103,
+      "id": "104-american-idiots-and-international-friend",
+      "order": 104,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2947,8 +2974,8 @@
       "note": null
     },
     {
-      "id": "104-documentary-poetics-reading",
-      "order": 104,
+      "id": "105-documentary-poetics-reading",
+      "order": 105,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2973,8 +3000,8 @@
       "note": null
     },
     {
-      "id": "105-visiting-student-week-current-student-re",
-      "order": 105,
+      "id": "106-visiting-student-week-current-student-re",
+      "order": 106,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -2999,8 +3026,8 @@
       "note": null
     },
     {
-      "id": "106-first-year-student-reading-series",
-      "order": 106,
+      "id": "107-first-year-student-reading-series",
+      "order": 107,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Programmed Readings of Creative Writing",
       "heading": null,
@@ -3025,8 +3052,8 @@
       "note": null
     },
     {
-      "id": "107-space-invasion",
-      "order": 107,
+      "id": "108-space-invasion",
+      "order": 108,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Art Shows",
       "heading": null,
@@ -3052,8 +3079,8 @@
       "note": null
     },
     {
-      "id": "108-art-night",
-      "order": 108,
+      "id": "109-art-night",
+      "order": 109,
       "section": "conference-presentations-invited-talks-readings",
       "subsection": "Art Shows",
       "heading": null,
@@ -3078,8 +3105,8 @@
       "note": null
     },
     {
-      "id": "109-logistics-chair-electronic-literature-un",
-      "order": 109,
+      "id": "110-logistics-chair-electronic-literature-un",
+      "order": 110,
       "section": "administrative-experience",
       "subsection": "Logistics Chair, Electronic Literature (Un)supervised Conference 2026",
       "heading": null,
@@ -3106,8 +3133,8 @@
       "note": null
     },
     {
-      "id": "110-electronic-literature-organization-coord",
-      "order": 110,
+      "id": "111-electronic-literature-organization-coord",
+      "order": 111,
       "section": "administrative-experience",
       "subsection": "Electronic Literature Organization, Coordinator",
       "heading": null,
@@ -3135,8 +3162,8 @@
       "note": null
     },
     {
-      "id": "111-logistics-chair-electronic-literature-or",
-      "order": 111,
+      "id": "112-logistics-chair-electronic-literature-or",
+      "order": 112,
       "section": "administrative-experience",
       "subsection": "Logistics Chair, Electronic Literature Organization, (Un)linked Conference",
       "heading": null,
@@ -3161,8 +3188,8 @@
       "note": null
     },
     {
-      "id": "112-assistant-to-the-director-of-the-mfa-pro",
-      "order": 112,
+      "id": "113-assistant-to-the-director-of-the-mfa-pro",
+      "order": 113,
       "section": "administrative-experience",
       "subsection": "Assistant to the Director of the MFA Program in Creative Writing",
       "heading": null,
@@ -3185,8 +3212,8 @@
       "note": null
     },
     {
-      "id": "113-monthly-ekphrastic-writing-workshops",
-      "order": 113,
+      "id": "114-monthly-ekphrastic-writing-workshops",
+      "order": 114,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3212,8 +3239,8 @@
       "note": null
     },
     {
-      "id": "114-electronic-literature-conference-2026-un",
-      "order": 114,
+      "id": "115-electronic-literature-conference-2026-un",
+      "order": 115,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3240,8 +3267,8 @@
       "note": null
     },
     {
-      "id": "115-re-mediate-issue-7-launch",
-      "order": 115,
+      "id": "116-re-mediate-issue-7-launch",
+      "order": 116,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3264,8 +3291,8 @@
       "note": null
     },
     {
-      "id": "116-re-mediate-issue-5-launch",
-      "order": 116,
+      "id": "117-re-mediate-issue-5-launch",
+      "order": 117,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3290,8 +3317,8 @@
       "note": null
     },
     {
-      "id": "117-re-mediate-issue-4-launch-theme-machinew",
-      "order": 117,
+      "id": "118-re-mediate-issue-4-launch-theme-machinew",
+      "order": 118,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3316,8 +3343,8 @@
       "note": null
     },
     {
-      "id": "118-re-mediate-issue-3-launch-theme-next-rea",
-      "order": 118,
+      "id": "119-re-mediate-issue-3-launch-theme-next-rea",
+      "order": 119,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3342,8 +3369,8 @@
       "note": null
     },
     {
-      "id": "119-electronic-literature-conference-2024-un",
-      "order": 119,
+      "id": "120-electronic-literature-conference-2024-un",
+      "order": 120,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3369,8 +3396,8 @@
       "note": null
     },
     {
-      "id": "120-graduating-student-reading-series",
-      "order": 120,
+      "id": "121-graduating-student-reading-series",
+      "order": 121,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3400,8 +3427,8 @@
       "note": null
     },
     {
-      "id": "121-visiting-student-week-of-welcome-events",
-      "order": 121,
+      "id": "122-visiting-student-week-of-welcome-events",
+      "order": 122,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3426,8 +3453,8 @@
       "note": null
     },
     {
-      "id": "122-pride-joy-reading",
-      "order": 122,
+      "id": "123-pride-joy-reading",
+      "order": 123,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3457,8 +3484,8 @@
       "note": null
     },
     {
-      "id": "123-first-year-reading-series",
-      "order": 123,
+      "id": "124-first-year-reading-series",
+      "order": 124,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3488,8 +3515,8 @@
       "note": null
     },
     {
-      "id": "124-second-year-reading-series",
-      "order": 124,
+      "id": "125-second-year-reading-series",
+      "order": 125,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3519,8 +3546,8 @@
       "note": null
     },
     {
-      "id": "125-biannual-mfa-clothing-swap-donation-driv",
-      "order": 125,
+      "id": "126-biannual-mfa-clothing-swap-donation-driv",
+      "order": 126,
       "section": "administrative-experience",
       "subsection": "Events Organizer",
       "heading": null,
@@ -3550,8 +3577,8 @@
       "note": null
     },
     {
-      "id": "126-electronic-literature-organization-un-li",
-      "order": 126,
+      "id": "127-electronic-literature-organization-un-li",
+      "order": 127,
       "section": "administrative-experience",
       "subsection": "Master of Ceremonies",
       "heading": null,
@@ -3576,8 +3603,8 @@
       "note": null
     },
     {
-      "id": "127-gulf-coast-the-offing-black-warrior-revi",
-      "order": 127,
+      "id": "128-gulf-coast-the-offing-black-warrior-revi",
+      "order": 128,
       "section": "administrative-experience",
       "subsection": "Master of Ceremonies",
       "heading": null,
@@ -3602,8 +3629,8 @@
       "note": null
     },
     {
-      "id": "128-puerto-del-sol-black-warrior-review-laun",
-      "order": 128,
+      "id": "129-puerto-del-sol-black-warrior-review-laun",
+      "order": 129,
       "section": "administrative-experience",
       "subsection": "Master of Ceremonies",
       "heading": null,
@@ -3628,8 +3655,8 @@
       "note": null
     },
     {
-      "id": "129-graduate-student-writing-retreat",
-      "order": 129,
+      "id": "130-graduate-student-writing-retreat",
+      "order": 130,
       "section": "professional-development",
       "subsection": "Certificate Courses",
       "heading": null,
@@ -3654,8 +3681,8 @@
       "note": null
     },
     {
-      "id": "130-preparing-tomorrow-s-faculty",
-      "order": 130,
+      "id": "131-preparing-tomorrow-s-faculty",
+      "order": 131,
       "section": "professional-development",
       "subsection": "Certificate Courses",
       "heading": null,
@@ -3680,8 +3707,8 @@
       "note": null
     },
     {
-      "id": "131-artifeelcial-emotigence",
-      "order": 131,
+      "id": "132-artifeelcial-emotigence",
+      "order": 132,
       "section": "professional-development",
       "subsection": "Creative Workshops Attended",
       "heading": null,
@@ -3706,8 +3733,8 @@
       "note": null
     },
     {
-      "id": "132-wait-list",
-      "order": 132,
+      "id": "133-wait-list",
+      "order": 133,
       "section": "professional-development",
       "subsection": "Creative Workshops Attended",
       "heading": null,
@@ -3732,8 +3759,8 @@
       "note": null
     },
     {
-      "id": "133-eco-poetry-workshop",
-      "order": 133,
+      "id": "134-eco-poetry-workshop",
+      "order": 134,
       "section": "professional-development",
       "subsection": "Creative Workshops Attended",
       "heading": null,
@@ -3758,8 +3785,8 @@
       "note": null
     },
     {
-      "id": "134-creator-and-influencer-studies-journal",
-      "order": 134,
+      "id": "135-creator-and-influencer-studies-journal",
+      "order": 135,
       "section": "professional-service",
       "subsection": "Publication Peer Reviews",
       "heading": null,
@@ -3784,8 +3811,8 @@
       "note": null
     },
     {
-      "id": "135-electronic-literature-organization-2026-",
-      "order": 135,
+      "id": "136-electronic-literature-organization-2026-",
+      "order": 136,
       "section": "professional-service",
       "subsection": "Conference Peer Reviews",
       "heading": null,
@@ -3810,8 +3837,8 @@
       "note": null
     },
     {
-      "id": "136-association-for-computers-and-the-humani",
-      "order": 136,
+      "id": "137-association-for-computers-and-the-humani",
+      "order": 137,
       "section": "professional-service",
       "subsection": "Conference Peer Reviews",
       "heading": null,
@@ -3836,8 +3863,8 @@
       "note": null
     },
     {
-      "id": "137-association-for-computers-and-the-humani",
-      "order": 137,
+      "id": "138-association-for-computers-and-the-humani",
+      "order": 138,
       "section": "professional-service",
       "subsection": "Conference Peer Reviews",
       "heading": null,
@@ -3862,8 +3889,8 @@
       "note": null
     },
     {
-      "id": "138-florida-undergraduate-humanities-researc",
-      "order": 138,
+      "id": "139-florida-undergraduate-humanities-researc",
+      "order": 139,
       "section": "professional-service",
       "subsection": "Contests Judged",
       "heading": null,
@@ -3888,8 +3915,8 @@
       "note": null
     },
     {
-      "id": "139-jeanne-leiby-memorial-chapbook-award-the",
-      "order": 139,
+      "id": "140-jeanne-leiby-memorial-chapbook-award-the",
+      "order": 140,
       "section": "professional-service",
       "subsection": "Contests Judged",
       "heading": null,
@@ -3915,8 +3942,8 @@
       "note": null
     },
     {
-      "id": "140-alabama-scholastic-press-association-con",
-      "order": 140,
+      "id": "141-alabama-scholastic-press-association-con",
+      "order": 141,
       "section": "professional-service",
       "subsection": "Contests Judged",
       "heading": null,
@@ -3941,8 +3968,8 @@
       "note": null
     },
     {
-      "id": "141-mfa-representative-undergraduate-studies",
-      "order": 141,
+      "id": "142-mfa-representative-undergraduate-studies",
+      "order": 142,
       "section": "professional-service",
       "subsection": "Committees Served",
       "heading": null,
@@ -3965,8 +3992,8 @@
       "note": null
     },
     {
-      "id": "142-what-do-editors-mean-when-they-seek-risk",
-      "order": 142,
+      "id": "143-what-do-editors-mean-when-they-seek-risk",
+      "order": 143,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Media Coverage",
       "heading": "Of re•mediate, my literary magazine",
@@ -3994,8 +4021,8 @@
       "note": null
     },
     {
-      "id": "143-fish-list-of-lively-literary-magazines",
-      "order": 143,
+      "id": "144-fish-list-of-lively-literary-magazines",
+      "order": 144,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Media Coverage",
       "heading": "Of re•mediate, my literary magazine",
@@ -4025,8 +4052,8 @@
       "note": null
     },
     {
-      "id": "144-2-part-interview-by-katherine-parrish-ab",
-      "order": 144,
+      "id": "145-2-part-interview-by-katherine-parrish-ab",
+      "order": 145,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Media Coverage",
       "heading": "Of re•mediate, my literary magazine",
@@ -4058,8 +4085,8 @@
       "note": null
     },
     {
-      "id": "145-new-lit-on-the-block-re-mediate",
-      "order": 145,
+      "id": "146-new-lit-on-the-block-re-mediate",
+      "order": 146,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Media Coverage",
       "heading": "Of re•mediate, my literary magazine",
@@ -4089,8 +4116,8 @@
       "note": null
     },
     {
-      "id": "146-editor-interview-re-mediate-lit-mag",
-      "order": 146,
+      "id": "147-editor-interview-re-mediate-lit-mag",
+      "order": 147,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Media Coverage",
       "heading": "Of re•mediate, my literary magazine",
@@ -4120,8 +4147,8 @@
       "note": null
     },
     {
-      "id": "147-lit-mags-that-are-vibing-so-hard-it-ll-m",
-      "order": 147,
+      "id": "148-lit-mags-that-are-vibing-so-hard-it-ll-m",
+      "order": 148,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Media Coverage",
       "heading": "Of re•mediate, my literary magazine",
@@ -4146,8 +4173,8 @@
       "note": null
     },
     {
-      "id": "148-5-mags-who-do-things-a-little-differentl",
-      "order": 148,
+      "id": "149-5-mags-who-do-things-a-little-differentl",
+      "order": 149,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Media Coverage",
       "heading": "Of re•mediate, my literary magazine",
@@ -4172,8 +4199,8 @@
       "note": null
     },
     {
-      "id": "149-rhizome-microgrants-program-2026",
-      "order": 149,
+      "id": "150-rhizome-microgrants-program-2026",
+      "order": 150,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Pending Grant Applications",
       "heading": null,
@@ -4203,8 +4230,8 @@
       "note": null
     },
     {
-      "id": "150-ucf-trustees-doctoral-fellowship",
-      "order": 150,
+      "id": "151-ucf-trustees-doctoral-fellowship",
+      "order": 151,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Research & Tuition Fellowships",
@@ -4234,8 +4261,8 @@
       "note": null
     },
     {
-      "id": "151-ucf-summer-mentoring-fellowship",
-      "order": 151,
+      "id": "152-ucf-summer-mentoring-fellowship",
+      "order": 152,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Research & Tuition Fellowships",
@@ -4265,8 +4292,8 @@
       "note": null
     },
     {
-      "id": "152-u-alabama-graduate-council-fellowship",
-      "order": 152,
+      "id": "153-u-alabama-graduate-council-fellowship",
+      "order": 153,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Research & Tuition Fellowships",
@@ -4294,8 +4321,8 @@
       "note": null
     },
     {
-      "id": "153-u-alabama-truman-capote-fellowship",
-      "order": 153,
+      "id": "154-u-alabama-truman-capote-fellowship",
+      "order": 154,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Research & Tuition Fellowships",
@@ -4318,8 +4345,8 @@
       "note": null
     },
     {
-      "id": "154-modern-language-association-conference-4",
-      "order": 154,
+      "id": "155-modern-language-association-conference-4",
+      "order": 155,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4342,8 +4369,8 @@
       "note": null
     },
     {
-      "id": "155-500-to-attend-modern-language-associatio",
-      "order": 155,
+      "id": "156-500-to-attend-modern-language-associatio",
+      "order": 156,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4366,8 +4393,8 @@
       "note": null
     },
     {
-      "id": "156-660-to-attend-electronic-literature-orga",
-      "order": 156,
+      "id": "157-660-to-attend-electronic-literature-orga",
+      "order": 157,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4390,8 +4417,8 @@
       "note": null
     },
     {
-      "id": "157-500-to-attend-ieee-symposium-on-computat",
-      "order": 157,
+      "id": "158-500-to-attend-ieee-symposium-on-computat",
+      "order": 158,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4414,8 +4441,8 @@
       "note": null
     },
     {
-      "id": "158-500-to-attend-creative-writing-studies-c",
-      "order": 158,
+      "id": "159-500-to-attend-creative-writing-studies-c",
+      "order": 159,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4438,8 +4465,8 @@
       "note": null
     },
     {
-      "id": "159-ucf-student-government-travel-awards-1-0",
-      "order": 159,
+      "id": "160-ucf-student-government-travel-awards-1-0",
+      "order": 160,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4462,8 +4489,8 @@
       "note": null
     },
     {
-      "id": "160-500-to-attend-modern-language-associatio",
-      "order": 160,
+      "id": "161-500-to-attend-modern-language-associatio",
+      "order": 161,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4486,8 +4513,8 @@
       "note": null
     },
     {
-      "id": "161-300-to-attend-florida-college-english-as",
-      "order": 161,
+      "id": "162-300-to-attend-florida-college-english-as",
+      "order": 162,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4510,8 +4537,8 @@
       "note": null
     },
     {
-      "id": "162-creative-writing-studies-conference-400-",
-      "order": 162,
+      "id": "163-creative-writing-studies-conference-400-",
+      "order": 163,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4534,8 +4561,8 @@
       "note": null
     },
     {
-      "id": "163-534-travel-to-granada-nicaragua-for-crea",
-      "order": 163,
+      "id": "164-534-travel-to-granada-nicaragua-for-crea",
+      "order": 164,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4558,8 +4585,8 @@
       "note": null
     },
     {
-      "id": "164-385-travel-to-attend-journalism-historia",
-      "order": 164,
+      "id": "165-385-travel-to-attend-journalism-historia",
+      "order": 165,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Fellowships & Grants Received",
       "heading": "Travel Funding",
@@ -4582,8 +4609,8 @@
       "note": null
     },
     {
-      "id": "165-outstanding-journalism-thesis-by-a-gradu",
-      "order": 165,
+      "id": "166-outstanding-journalism-thesis-by-a-gradu",
+      "order": 166,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4606,8 +4633,8 @@
       "note": null
     },
     {
-      "id": "166-outstanding-creativity-in-print-design",
-      "order": 166,
+      "id": "167-outstanding-creativity-in-print-design",
+      "order": 167,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4630,8 +4657,8 @@
       "note": null
     },
     {
-      "id": "167-3rd-place-graduate-paper",
-      "order": 167,
+      "id": "168-3rd-place-graduate-paper",
+      "order": 168,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4654,8 +4681,8 @@
       "note": null
     },
     {
-      "id": "168-finalist-for-the-ultraslant-prize",
-      "order": 168,
+      "id": "169-finalist-for-the-ultraslant-prize",
+      "order": 169,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4683,8 +4710,8 @@
       "note": null
     },
     {
-      "id": "169-fulbright-program-semi-finalist",
-      "order": 169,
+      "id": "170-fulbright-program-semi-finalist",
+      "order": 170,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4707,8 +4734,8 @@
       "note": null
     },
     {
-      "id": "170-joe-p-ruthven-award-for-leadership-gradu",
-      "order": 170,
+      "id": "171-joe-p-ruthven-award-for-leadership-gradu",
+      "order": 171,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4731,8 +4758,8 @@
       "note": null
     },
     {
-      "id": "171-outstanding-english-senior-modern-langua",
-      "order": 171,
+      "id": "172-outstanding-english-senior-modern-langua",
+      "order": 172,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4755,8 +4782,8 @@
       "note": null
     },
     {
-      "id": "172-james-c-rogers-outstanding-male-senior-a",
-      "order": 172,
+      "id": "173-james-c-rogers-outstanding-male-senior-a",
+      "order": 173,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4779,8 +4806,8 @@
       "note": null
     },
     {
-      "id": "173-student-life-awards-diversity-initiative",
-      "order": 173,
+      "id": "174-student-life-awards-diversity-initiative",
+      "order": 174,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4803,8 +4830,8 @@
       "note": null
     },
     {
-      "id": "174-admissions-department-southern-ambassado",
-      "order": 174,
+      "id": "175-admissions-department-southern-ambassado",
+      "order": 175,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4827,8 +4854,8 @@
       "note": null
     },
     {
-      "id": "175-carroll-and-lucy-teeter-journalism-award",
-      "order": 175,
+      "id": "176-carroll-and-lucy-teeter-journalism-award",
+      "order": 176,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4851,8 +4878,8 @@
       "note": null
     },
     {
-      "id": "176-eagle-scout-rank",
-      "order": 176,
+      "id": "177-eagle-scout-rank",
+      "order": 177,
       "section": "honors-fellowships-grants-and-awards",
       "subsection": "Awards Received",
       "heading": null,
@@ -4875,8 +4902,8 @@
       "note": null
     },
     {
-      "id": "177-creative-writing-studies-organization",
-      "order": 177,
+      "id": "178-creative-writing-studies-organization",
+      "order": 178,
       "section": "affiliations",
       "subsection": "Professional / Academic Organizations",
       "heading": null,
@@ -4899,8 +4926,8 @@
       "note": null
     },
     {
-      "id": "178-florida-digital-humanities-consortium",
-      "order": 178,
+      "id": "179-florida-digital-humanities-consortium",
+      "order": 179,
       "section": "affiliations",
       "subsection": "Professional / Academic Organizations",
       "heading": null,
@@ -4923,8 +4950,8 @@
       "note": null
     },
     {
-      "id": "179-electronic-literature-organization",
-      "order": 179,
+      "id": "180-electronic-literature-organization",
+      "order": 180,
       "section": "affiliations",
       "subsection": "Professional / Academic Organizations",
       "heading": null,
@@ -4947,8 +4974,8 @@
       "note": null
     },
     {
-      "id": "180-kappa-tau-alpha-national-journalism-and-",
-      "order": 180,
+      "id": "181-kappa-tau-alpha-national-journalism-and-",
+      "order": 181,
       "section": "affiliations",
       "subsection": "Honor Societies",
       "heading": "Inducted April 20, 2023 at The University of Alabama",
@@ -4971,8 +4998,8 @@
       "note": null
     },
     {
-      "id": "181-lambda-pi-eta-omega-iota-chapter-interna",
-      "order": 181,
+      "id": "182-lambda-pi-eta-omega-iota-chapter-interna",
+      "order": 182,
       "section": "affiliations",
       "subsection": "Honor Societies",
       "heading": "Inducted at Florida Southern College, 2017-2019",
@@ -4995,8 +5022,8 @@
       "note": null
     },
     {
-      "id": "182-omicron-delta-kappa-florida-southern-col",
-      "order": 182,
+      "id": "183-omicron-delta-kappa-florida-southern-col",
+      "order": 183,
       "section": "affiliations",
       "subsection": "Honor Societies",
       "heading": "Inducted at Florida Southern College, 2017-2019",
@@ -5019,8 +5046,8 @@
       "note": null
     },
     {
-      "id": "183-sigma-tau-delta-psi-epsilon-chapter-inte",
-      "order": 183,
+      "id": "184-sigma-tau-delta-psi-epsilon-chapter-inte",
+      "order": 184,
       "section": "affiliations",
       "subsection": "Honor Societies",
       "heading": "Inducted at Florida Southern College, 2017-2019",
@@ -5043,8 +5070,8 @@
       "note": null
     },
     {
-      "id": "184-fluent-in-english-spanish",
-      "order": 184,
+      "id": "185-fluent-in-english-spanish",
+      "order": 185,
       "section": "skills",
       "subsection": "Languages",
       "heading": null,
@@ -5070,8 +5097,8 @@
       "note": null
     },
     {
-      "id": "185-learner-in-html-css-python-twine",
-      "order": 185,
+      "id": "186-learner-in-html-css-python-twine",
+      "order": 186,
       "section": "skills",
       "subsection": "Languages",
       "heading": null,
@@ -5099,8 +5126,8 @@
       "note": null
     },
     {
-      "id": "186-professional-artistic-experience",
-      "order": 186,
+      "id": "187-professional-artistic-experience",
+      "order": 187,
       "section": "skills",
       "subsection": "Software",
       "heading": null,
@@ -5140,8 +5167,8 @@
       "note": null
     },
     {
-      "id": "187-proficient",
-      "order": 187,
+      "id": "188-proficient",
+      "order": 188,
       "section": "skills",
       "subsection": "Software",
       "heading": null,
@@ -5173,8 +5200,8 @@
       "note": null
     },
     {
-      "id": "188-knowledgeable",
-      "order": 188,
+      "id": "189-knowledgeable",
+      "order": 189,
       "section": "skills",
       "subsection": "Software",
       "heading": null,
@@ -5205,8 +5232,8 @@
       "note": null
     },
     {
-      "id": "189-modern-language-association",
-      "order": 189,
+      "id": "190-modern-language-association",
+      "order": 190,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5229,8 +5256,8 @@
       "note": null
     },
     {
-      "id": "190-latin-america-and-caribbean-digital-huma",
-      "order": 190,
+      "id": "191-latin-america-and-caribbean-digital-huma",
+      "order": 191,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5253,8 +5280,8 @@
       "note": null
     },
     {
-      "id": "191-creative-writing-studies-organization-co",
-      "order": 191,
+      "id": "192-creative-writing-studies-organization-co",
+      "order": 192,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5277,8 +5304,8 @@
       "note": null
     },
     {
-      "id": "192-creative-writing-studies-organization-co",
-      "order": 192,
+      "id": "193-creative-writing-studies-organization-co",
+      "order": 193,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5301,8 +5328,8 @@
       "note": null
     },
     {
-      "id": "193-electronic-literature-conference",
-      "order": 193,
+      "id": "194-electronic-literature-conference",
+      "order": 194,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5325,8 +5352,8 @@
       "note": null
     },
     {
-      "id": "194-electronic-literature-conference",
-      "order": 194,
+      "id": "195-electronic-literature-conference",
+      "order": 195,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5349,8 +5376,8 @@
       "note": null
     },
     {
-      "id": "195-electronic-literature-conference",
-      "order": 195,
+      "id": "196-electronic-literature-conference",
+      "order": 196,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5373,8 +5400,8 @@
       "note": null
     },
     {
-      "id": "196-console-ing-passions",
-      "order": 196,
+      "id": "197-console-ing-passions",
+      "order": 197,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5397,8 +5424,8 @@
       "note": null
     },
     {
-      "id": "197-the-association-for-computers-and-the-hu",
-      "order": 197,
+      "id": "198-the-association-for-computers-and-the-hu",
+      "order": 198,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5421,8 +5448,8 @@
       "note": null
     },
     {
-      "id": "198-the-association-for-computers-and-the-hu",
-      "order": 198,
+      "id": "199-the-association-for-computers-and-the-hu",
+      "order": 199,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5445,8 +5472,8 @@
       "note": null
     },
     {
-      "id": "199-new-media-writing-prize-unconference",
-      "order": 199,
+      "id": "200-new-media-writing-prize-unconference",
+      "order": 200,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5469,8 +5496,8 @@
       "note": null
     },
     {
-      "id": "200-new-media-writing-prize-unconference",
-      "order": 200,
+      "id": "201-new-media-writing-prize-unconference",
+      "order": 201,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5493,8 +5520,8 @@
       "note": null
     },
     {
-      "id": "201-pop-culture-association-american-culture",
-      "order": 201,
+      "id": "202-pop-culture-association-american-culture",
+      "order": 202,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5517,8 +5544,8 @@
       "note": null
     },
     {
-      "id": "202-ucf-student-scholar-symposium",
-      "order": 202,
+      "id": "203-ucf-student-scholar-symposium",
+      "order": 203,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5541,8 +5568,8 @@
       "note": null
     },
     {
-      "id": "203-ieee-symposium-series-on-computational-i",
-      "order": 203,
+      "id": "204-ieee-symposium-series-on-computational-i",
+      "order": 204,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5565,8 +5592,8 @@
       "note": null
     },
     {
-      "id": "204-florida-college-english-association-conf",
-      "order": 204,
+      "id": "205-florida-college-english-association-conf",
+      "order": 205,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5589,8 +5616,8 @@
       "note": null
     },
     {
-      "id": "205-florida-college-english-association-conf",
-      "order": 205,
+      "id": "206-florida-college-english-association-conf",
+      "order": 206,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5613,8 +5640,8 @@
       "note": null
     },
     {
-      "id": "206-florida-digital-humanities-consortium",
-      "order": 206,
+      "id": "207-florida-digital-humanities-consortium",
+      "order": 207,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5637,8 +5664,8 @@
       "note": null
     },
     {
-      "id": "207-digitorium-university-of-alabama-digital",
-      "order": 207,
+      "id": "208-digitorium-university-of-alabama-digital",
+      "order": 208,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5661,8 +5688,8 @@
       "note": null
     },
     {
-      "id": "208-american-journalism-historians-associati",
-      "order": 208,
+      "id": "209-american-journalism-historians-associati",
+      "order": 209,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5685,8 +5712,8 @@
       "note": null
     },
     {
-      "id": "209-association-of-writers-and-writing-progr",
-      "order": 209,
+      "id": "210-association-of-writers-and-writing-progr",
+      "order": 210,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5709,8 +5736,8 @@
       "note": null
     },
     {
-      "id": "210-association-of-writers-and-writing-progr",
-      "order": 210,
+      "id": "211-association-of-writers-and-writing-progr",
+      "order": 211,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5733,8 +5760,8 @@
       "note": null
     },
     {
-      "id": "211-association-of-writers-and-writing-progr",
-      "order": 211,
+      "id": "212-association-of-writers-and-writing-progr",
+      "order": 212,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5757,8 +5784,8 @@
       "note": null
     },
     {
-      "id": "212-association-of-writers-and-writing-progr",
-      "order": 212,
+      "id": "213-association-of-writers-and-writing-progr",
+      "order": 213,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5781,8 +5808,8 @@
       "note": null
     },
     {
-      "id": "213-diversity-and-inclusion-conference-still",
-      "order": 213,
+      "id": "214-diversity-and-inclusion-conference-still",
+      "order": 214,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5805,8 +5832,8 @@
       "note": null
     },
     {
-      "id": "214-association-of-student-government-associ",
-      "order": 214,
+      "id": "215-association-of-student-government-associ",
+      "order": 215,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5829,8 +5856,8 @@
       "note": null
     },
     {
-      "id": "215-college-media-association-conference",
-      "order": 215,
+      "id": "216-college-media-association-conference",
+      "order": 216,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5853,8 +5880,8 @@
       "note": null
     },
     {
-      "id": "216-college-media-association-conference",
-      "order": 216,
+      "id": "217-college-media-association-conference",
+      "order": 217,
       "section": "conference-attendance",
       "subsection": null,
       "heading": null,
@@ -5877,8 +5904,8 @@
       "note": null
     },
     {
-      "id": "217-substitute-teacher-upper-schools",
-      "order": 217,
+      "id": "218-substitute-teacher-upper-schools",
+      "order": 218,
       "section": "freelance-work-experience",
       "subsection": "Substitute Teacher, Upper Schools, Lakeland, FL",
       "heading": null,
@@ -5903,8 +5930,8 @@
       "note": null
     },
     {
-      "id": "218-manuscript-layout-w-artist-kalie-boyne",
-      "order": 218,
+      "id": "219-manuscript-layout-w-artist-kalie-boyne",
+      "order": 219,
       "section": "freelance-work-experience",
       "subsection": "Print Layout Design, Publications & Creative Projects",
       "heading": null,
@@ -5934,8 +5961,8 @@
       "note": null
     },
     {
-      "id": "219-manuscript-layout-w-poet-kwoya-fagin-map",
-      "order": 219,
+      "id": "220-manuscript-layout-w-poet-kwoya-fagin-map",
+      "order": 220,
       "section": "freelance-work-experience",
       "subsection": "Print Layout Design, Publications & Creative Projects",
       "heading": null,
@@ -5965,8 +5992,8 @@
       "note": null
     },
     {
-      "id": "220-illustrated-map-design-w-nonfiction-writ",
-      "order": 220,
+      "id": "221-illustrated-map-design-w-nonfiction-writ",
+      "order": 221,
       "section": "freelance-work-experience",
       "subsection": "Print Layout Design, Publications & Creative Projects",
       "heading": null,
@@ -5991,8 +6018,8 @@
       "note": null
     },
     {
-      "id": "221-chapbook-layout-w-poet-marzetta",
-      "order": 221,
+      "id": "222-chapbook-layout-w-poet-marzetta",
+      "order": 222,
       "section": "freelance-work-experience",
       "subsection": "Print Layout Design, Publications & Creative Projects",
       "heading": null,
@@ -6022,8 +6049,8 @@
       "note": null
     },
     {
-      "id": "222-poetry-commission",
-      "order": 222,
+      "id": "223-poetry-commission",
+      "order": 223,
       "section": "freelance-work-experience",
       "subsection": "Print Layout Design, Publications & Creative Projects",
       "heading": null,
@@ -6048,8 +6075,8 @@
       "note": null
     },
     {
-      "id": "223-be-zi-dental-school-applications",
-      "order": 223,
+      "id": "224-be-zi-dental-school-applications",
+      "order": 224,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6074,8 +6101,8 @@
       "note": null
     },
     {
-      "id": "224-as-ti-medical-school-applications-second",
-      "order": 224,
+      "id": "225-as-ti-medical-school-applications-second",
+      "order": 225,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6100,8 +6127,8 @@
       "note": null
     },
     {
-      "id": "225-ar-ti-dental-school-graduation-speech",
-      "order": 225,
+      "id": "226-ar-ti-dental-school-graduation-speech",
+      "order": 226,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6126,8 +6153,8 @@
       "note": null
     },
     {
-      "id": "226-ca-th-law-school-applications",
-      "order": 226,
+      "id": "227-ca-th-law-school-applications",
+      "order": 227,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6152,8 +6179,8 @@
       "note": null
     },
     {
-      "id": "227-ca-th-law-school-applications",
-      "order": 227,
+      "id": "228-ca-th-law-school-applications",
+      "order": 228,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6178,8 +6205,8 @@
       "note": null
     },
     {
-      "id": "228-ca-wh-master-s-program-application",
-      "order": 228,
+      "id": "229-ca-wh-master-s-program-application",
+      "order": 229,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6204,8 +6231,8 @@
       "note": null
     },
     {
-      "id": "229-ma-ga-p-t-school-applications",
-      "order": 229,
+      "id": "230-ma-ga-p-t-school-applications",
+      "order": 230,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6230,8 +6257,8 @@
       "note": null
     },
     {
-      "id": "230-sp-as-medical-school-applications",
-      "order": 230,
+      "id": "231-sp-as-medical-school-applications",
+      "order": 231,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6256,8 +6283,8 @@
       "note": null
     },
     {
-      "id": "231-mo-mc-fulbright-eta-application",
-      "order": 231,
+      "id": "232-mo-mc-fulbright-eta-application",
+      "order": 232,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6282,8 +6309,8 @@
       "note": null
     },
     {
-      "id": "232-ar-ti-dental-school-applications",
-      "order": 232,
+      "id": "233-ar-ti-dental-school-applications",
+      "order": 233,
       "section": "freelance-work-experience",
       "subsection": "Copy Editing, Higher Education Admissions/Activities (Names Abbreviated for Privacy)",
       "heading": null,
@@ -6308,8 +6335,8 @@
       "note": null
     },
     {
-      "id": "233-barista-part-time",
-      "order": 233,
+      "id": "234-barista-part-time",
+      "order": 234,
       "section": "external-work-experience",
       "subsection": "Turbo Coffee Tuscaloosa, Tuscaloosa, AL",
       "heading": null,
@@ -6332,8 +6359,8 @@
       "note": null
     },
     {
-      "id": "234-southern-ambassador-tour-guide",
-      "order": 234,
+      "id": "235-southern-ambassador-tour-guide",
+      "order": 235,
       "section": "external-work-experience",
       "subsection": "Admissions Department, Florida Southern College, Lakeland, FL",
       "heading": null,
@@ -6356,8 +6383,8 @@
       "note": null
     },
     {
-      "id": "235-scholars-weekend-leader",
-      "order": 235,
+      "id": "236-scholars-weekend-leader",
+      "order": 236,
       "section": "external-work-experience",
       "subsection": "Admissions Department, Florida Southern College, Lakeland, FL",
       "heading": null,
@@ -6380,8 +6407,8 @@
       "note": null
     },
     {
-      "id": "236-scholars-weekend-leader",
-      "order": 236,
+      "id": "237-scholars-weekend-leader",
+      "order": 237,
       "section": "external-work-experience",
       "subsection": "Admissions Department, Florida Southern College, Lakeland, FL",
       "heading": null,
@@ -6404,8 +6431,8 @@
       "note": null
     },
     {
-      "id": "237-student-archivist",
-      "order": 237,
+      "id": "238-student-archivist",
+      "order": 238,
       "section": "external-work-experience",
       "subsection": "Sarah D. and L. Kirk McKay Archives Center",
       "heading": null,
@@ -6428,8 +6455,8 @@
       "note": null
     },
     {
-      "id": "238-directors-assistant-head-counselor-head-",
-      "order": 238,
+      "id": "239-directors-assistant-head-counselor-head-",
+      "order": 239,
       "section": "external-work-experience",
       "subsection": "Camp Gilead, Polk City, FL",
       "heading": null,
@@ -6452,8 +6479,8 @@
       "note": null
     },
     {
-      "id": "239-head-lifeguard-summer-staff",
-      "order": 239,
+      "id": "240-head-lifeguard-summer-staff",
+      "order": 240,
       "section": "external-work-experience",
       "subsection": "Camp Gilead, Polk City, FL",
       "heading": null,
@@ -6476,8 +6503,8 @@
       "note": null
     },
     {
-      "id": "240-head-counselor-head-lifeguard",
-      "order": 240,
+      "id": "241-head-counselor-head-lifeguard",
+      "order": 241,
       "section": "external-work-experience",
       "subsection": "Camp Gilead, Polk City, FL",
       "heading": null,
@@ -6500,8 +6527,8 @@
       "note": null
     },
     {
-      "id": "241-senior-counselor-lifeguard",
-      "order": 241,
+      "id": "242-senior-counselor-lifeguard",
+      "order": 242,
       "section": "external-work-experience",
       "subsection": "Camp Gilead, Polk City, FL",
       "heading": null,
@@ -6524,8 +6551,8 @@
       "note": null
     },
     {
-      "id": "242-ph-d-in-texts-technology",
-      "order": 242,
+      "id": "243-ph-d-in-texts-technology",
+      "order": 243,
       "section": "relevant-coursework-to-date",
       "subsection": "Doctoral Coursework",
       "heading": null,
@@ -6559,8 +6586,8 @@
       "note": null
     },
     {
-      "id": "243-digital-humanities-in-the-age-of-ai-cert",
-      "order": 243,
+      "id": "244-digital-humanities-in-the-age-of-ai-cert",
+      "order": 244,
       "section": "relevant-coursework-to-date",
       "subsection": "Doctoral Coursework",
       "heading": null,
@@ -6589,8 +6616,8 @@
       "note": null
     },
     {
-      "id": "244-mfa-creative-writing",
-      "order": 244,
+      "id": "245-mfa-creative-writing",
+      "order": 245,
       "section": "relevant-coursework-to-date",
       "subsection": "Graduate Coursework",
       "heading": null,
@@ -6629,8 +6656,8 @@
       "note": null
     },
     {
-      "id": "245-ma-journalism-media-studies",
-      "order": 245,
+      "id": "246-ma-journalism-media-studies",
+      "order": 246,
       "section": "relevant-coursework-to-date",
       "subsection": "Graduate Coursework",
       "heading": null,
@@ -6661,8 +6688,8 @@
       "note": null
     },
     {
-      "id": "246-english-writing",
-      "order": 246,
+      "id": "247-english-writing",
+      "order": 247,
       "section": "relevant-coursework-to-date",
       "subsection": "Undergraduate Coursework, BA",
       "heading": null,
@@ -6696,8 +6723,8 @@
       "note": null
     },
     {
-      "id": "247-spanish",
-      "order": 247,
+      "id": "248-spanish",
+      "order": 248,
       "section": "relevant-coursework-to-date",
       "subsection": "Undergraduate Coursework, BA",
       "heading": null,
@@ -6726,8 +6753,8 @@
       "note": null
     },
     {
-      "id": "248-communications-multimedia-journalism",
-      "order": 248,
+      "id": "249-communications-multimedia-journalism",
+      "order": 249,
       "section": "relevant-coursework-to-date",
       "subsection": "Undergraduate Coursework, BA",
       "heading": null,
